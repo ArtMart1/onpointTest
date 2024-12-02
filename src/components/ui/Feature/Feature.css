@@ -1,0 +1,29 @@
+.feature-enter {
+  opacity: 0;
+}
+
+.feature-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.feature-exit {
+  opacity: 0;
+}
+
+.feature {
+  margin-bottom: 20px;
+}
+
+.feature__number {
+  font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  color: #8cc9e8;
+  margin-bottom: 4px;
+}
+
+.feature__text {
+  font-size: 25px;
+  line-height: 31px;
+}

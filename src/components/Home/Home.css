@@ -1,0 +1,155 @@
+.home-page {
+  background-image: url("../../images/background-1.jpeg");
+  background-size: cover;
+  text-transform: uppercase;
+  margin: auto;
+  position: relative;
+  min-height: 768px;
+  display: flex;
+  justify-content: center;
+  padding-top: 161px;
+}
+
+.home-page__intro-text {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.home-page__content {
+  position: relative;
+  max-width: 960px;
+  height: fit-content;
+}
+
+.home-page__title {
+  font-family: "Gilroy", Arial, Helvetica, sans-serif;
+  margin: 0;
+  width: 100%;
+  font-size: 116px;
+  line-height: 120px;
+  color: #242424;
+  position: relative;
+  z-index: 1;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.home-page__title span {
+  font-weight: 700;
+}
+
+.home-page__sperm-img {
+  position: absolute;
+  top: -61px;
+  right: -5px;
+  width: 575px;
+  height: 90px;
+  z-index: 1;
+}
+
+.home-page__sphere {
+  position: absolute;
+  width: 72px;
+  height: 68px;
+  pointer-events: none;
+}
+
+.home-page__sphere_bottom {
+  left: 25px;
+  bottom: 186px;
+  animation: move-linear 7s linear infinite;
+}
+
+.home-page__sphere_top {
+  top: 59px;
+  right: 199px;
+  animation: move-linear2 14s linear infinite;
+}
+
+.home-page__thorn-sphere {
+  position: absolute;
+  top: 149px;
+  right: 124px;
+  width: 113px;
+  height: 116px;
+  animation: move-with-rotation 12s linear infinite;
+  z-index: 1;
+}
+
+.home-page__large-sphere {
+  position: absolute;
+  width: 239px;
+  height: 235px;
+  bottom: -128px;
+  right: 218px;
+  animation: move-with-scale 6s linear infinite;
+}
+
+@keyframes move-linear {
+  0% {
+    transform: translate(0);
+  }
+
+  25% {
+    transform: translate(-10px, -10px);
+  }
+
+  70% {
+    transform: translate(15px, 20px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes move-linear2 {
+  0% {
+    transform: translate(0px);
+  }
+
+  25% {
+    transform: translate(-25px, 5px);
+  }
+
+  70% {
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes move-with-rotation {
+  0% {
+    transform: rotate(0) translate(0, 0);
+  }
+
+  25% {
+    transform: rotate(-30deg) translate(-10px, -50px);
+  }
+
+  40% {
+    transform: rotate(-60deg) translate(20px, -70px);
+  }
+
+  60% {
+    transform: rotate(-80deg) translate(10px, -50px);
+  }
+
+  100% {
+    transform: rotate(0) translate(0px, 0px);
+  }
+}
+
+@keyframes move-with-scale {
+  20% {
+    transform: scale(1.1);
+  }
+
+  60% {
+    transform: scale(1) translate(-30px, -10px);
+  }
+}

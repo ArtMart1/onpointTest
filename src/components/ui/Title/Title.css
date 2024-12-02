@@ -1,0 +1,13 @@
+.title {
+  font-size: 100px;
+  font-weight: 300;
+  font-family: 'Gilroy';
+  letter-spacing: 8px;
+  line-height: 1;
+  padding-left: 74px;
+  text-transform: uppercase;
+}
+
+.title span {
+  font-weight: 700;
+}

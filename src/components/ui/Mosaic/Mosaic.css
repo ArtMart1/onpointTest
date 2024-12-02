@@ -1,0 +1,26 @@
+.mosaic {
+  width: 100%;
+  position: relative;
+  padding: 51px 71px 41px 48px;
+  background-color: #fff;
+  border-radius: 50px;
+  font-size: 26px;
+  box-shadow: 5px 8px 233px 0px rgba(157, 185, 198, 0.39);
+}
+
+.mosaic_type_streched {
+  padding: 51px 40px 71px 79px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.mosaic__text {
+  position: relative;
+}
+
+.mosaic__image {
+  width: 65px;
+  position: absolute;
+  top: -75px;
+  left: 0;
+}

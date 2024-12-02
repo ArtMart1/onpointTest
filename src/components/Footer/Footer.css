@@ -1,0 +1,10 @@
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  padding: 0 0 13px 100px;
+}
+
+.footer-container__logo {
+  width: 60px;
+  height: 13px;
+}

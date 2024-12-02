@@ -1,0 +1,38 @@
+.page-nav {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+  bottom: 35px;
+  left: 176px;
+}
+
+.page-nav__arrow {
+  width: 12px;
+  height: 19px;
+  cursor: pointer;
+}
+
+.page-nav__arrow_type_left {
+  transform: rotate(180deg);
+  margin-right: 19px;
+}
+
+.page-nav__arrow_type_right {
+  margin-left: 19px;
+}
+
+.page-nav__dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin: 6px;
+  transition: all .25s ease-in-out;
+}
+
+.page-nav__dot_active {
+  background-color: #fc6da9;
+  border: none;
+}

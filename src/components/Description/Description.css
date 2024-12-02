@@ -1,0 +1,142 @@
+.desc-section {
+  background-image: url("../../images/background-2.jpeg");
+  background-size: cover;
+  padding: 130px 134px 0 70px;
+  position: relative;
+  min-height: 768px;
+}
+
+.desc-title {
+  text-transform: uppercase;
+  font-size: 27px;
+  letter-spacing: 2px;
+  line-height: 31px;
+  margin-bottom: 65px;
+  font-weight: 400;
+}
+
+.desc-background {
+  position: absolute;
+  height: 450px;
+  background-color: #fff;
+  padding: 40px;
+  top: 237px;
+  left: 120px;
+  right: 125px;
+  border-radius: 33px;
+  z-index: 1;
+  box-shadow: 5px 8px 233px 0px rgba(157, 185, 198, 0.39);
+}
+
+.desc-content {
+  direction: rtl;
+  padding-left: 57px;
+  overflow-y: scroll;
+  max-height: 380px;
+}
+
+.desc-scrollbar {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  bottom: 10px;
+  width: 20px;
+  background-color: transparent;
+}
+.desc-scrollbar-thumb {
+  width: 20px;
+  background-image: url("../../images/scroll.png");
+  background-size: cover;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 104px;
+}
+.desc-text {
+  font-size: 24px;
+  text-align: left;
+  max-height: 380px;
+  position: relative;
+  z-index: 1;
+  padding-right: 20px;
+  line-height: 32px;
+}
+
+.desc-text span {
+  font-weight: 700;
+}
+
+.desc-content::-webkit-scrollbar {
+  width: 20px;
+}
+
+.desc-content::-webkit-scrollbar-track {
+  background: transparent;
+  box-shadow: inset 10px 10px 5px #000;
+  border-radius: 9px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+}
+
+.desc-content::-webkit-scrollbar-thumb {
+  height: 104px;
+  background-image: url("../../images/scroll.png");
+  background-size: cover;
+  border-radius: 20px;
+  height: 100px;
+}
+
+.desc-image {
+  position: absolute;
+  transform: translate(100px, 100px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 3s ease, opacity 3s ease;
+}
+
+.desc-image_type_1 {
+  width: 1183px;
+  height: 552px;
+  top: 96px;
+  right: -528px;
+}
+
+.desc-image_type_2 {
+  width: 761px;
+  top: 96px;
+  right: -327px;
+}
+
+.desc-image_type_3 {
+  width: 438px;
+  top: 76px;
+  right: -137px;
+}
+
+.desc-image_type_4 {
+  width: 754px;
+  bottom: 0;
+  right: -632px;
+}
+
+.desc-image_type_5 {
+  width: 379px;
+  bottom: 63px;
+  right: -259px;
+}
+
+.animation-start {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+@keyframes move-and-appear {
+  0% {
+    opacity: 0;
+    transform: translate(50px, 100px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
