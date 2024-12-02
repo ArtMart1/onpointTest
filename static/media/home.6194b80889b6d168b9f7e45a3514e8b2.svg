@@ -1,0 +1,24 @@
+<svg id="global_lemtrada_-_Smart_Object_Group" data-name="global_lemtrada - Smart Object Group" xmlns="http://www.w3.org/2000/svg" width="44" height="39" viewBox="0 0 44 39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #282828;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #282828;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #e7ebef;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="global">
+    <path class="cls-1" d="M2.12,20.351L22.431,1.808,42.187,20.349l0.479-.492L22.671,1.085a0.338,0.338,0,0,0-.474,0L1.648,19.855Zm5.07-.155V37.1a0.339,0.339,0,0,0,.342.342H18.083a0.341,0.341,0,0,0,.241-0.1,0.346,0.346,0,0,0,.1-0.242V27.255h7.834V37.1a0.34,0.34,0,0,0,.342.342H37.335a0.336,0.336,0,0,0,.241-0.1,0.348,0.348,0,0,0,.1-0.242V20.2H36.995V36.759H26.939V26.913a0.35,0.35,0,0,0-.1-0.245,0.339,0.339,0,0,0-.241-0.1H18.083a0.345,0.345,0,0,0-.243.1,0.361,0.361,0,0,0-.1.245v9.846H7.871V20.2H7.189Z"/>
+    <path class="cls-2" d="M93,47V-2"/>
+  </g>
+</svg>
